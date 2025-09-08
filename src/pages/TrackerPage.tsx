@@ -19,12 +19,12 @@ export default function ExpenseTracker() {
 
 
   const addExpense = () => {
-    const newExpense : Expense = {
-      id: randomId
-      name: "",
-      amount: "",
-      category: "",
-    };
+    //const newExpense : Expense = {
+      //id: randomId
+      //name: "",
+      //amount: "",
+      //category: "",
+    //};
     setExpenses([...expenses, { id: Date.now(), ...newExpense }]);
   };
 
